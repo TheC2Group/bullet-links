@@ -1,7 +1,7 @@
 bullet-links
 ============
 
-This module builds a list of bullet links. If the index changes outside of this module, it is important to notify this module of the new index.
+> This module builds a list of bullet links. If the index changes outside of this module, it is important to notify this module of the new index.
 
 ES5 polyfills needed for `Array.forEach`.
 
