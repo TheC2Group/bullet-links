@@ -5,7 +5,27 @@ This module builds a list of bullet links. If the index changes outside of this 
 
 ES5 polyfills needed for `Array.forEach`.
 
-Dependencies: jQuery
+
+To get started
+--------------
+
+### CommonJS
+
+```
+$ get clone ssh://git@stash.c2mpg.com:7999/c2/bullet-links.git
+```
+
+```js
+var ArrowButtons = require('./bullet-links');
+```
+
+### Browser Global
+
+```html
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="standalone/bullet-links.js"></script>
+```
+
 
 Basic example
 -------------
@@ -57,3 +77,9 @@ Constructor
 -------
 @param {jQuery} - element you want to append all the bullets and container to
 @return {Object} - instance of BulletLinks  
+
+
+License
+-------
+
+MIT © [The C2 Group](https://c2experience.com)
