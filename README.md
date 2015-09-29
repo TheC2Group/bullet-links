@@ -12,11 +12,11 @@ To get started
 ### CommonJS
 
 ```
-$ get clone ssh://git@stash.c2mpg.com:7999/c2/bullet-links.git
+$ npm install c2-bullet-links
 ```
 
 ```js
-var ArrowButtons = require('./bullet-links');
+var ArrowButtons = require('c2-bullet-links');
 ```
 
 ### Browser Global

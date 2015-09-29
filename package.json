@@ -1,6 +1,6 @@
 {
-  "name": "bullet-links",
-  "version": "1.1.1",
+  "name": "c2-bullet-links",
+  "version": "1.2.0",
   "description": "This module builds a list of bullet links.",
   "main": "bullet-links.js",
   "scripts": {
