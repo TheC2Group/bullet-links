@@ -1,15 +1,16 @@
 {
   "name": "bullet-links",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "This module builds a list of bullet links.",
   "main": "bullet-links.js",
   "scripts": {
     "standalone": "browserify bullet-links.js --outfile standalone/bullet-links.js --standalone BulletLinks --exclude jquery",
-    "dist": "uglifyjs standalone/bullet-links.js --output standalone/bullet-links.min.js --comments"
+    "dist": "uglifyjs standalone/bullet-links.js --output standalone/bullet-links.min.js --comments",
+    "build": "npm run standalone && npm run dist"
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@stash.c2mpg.com:7999/c2/bullet-links.git"
+    "url": "git@github.com:TheC2Group/bullet-links.git"
   },
   "keywords": [
     "bullets"

@@ -1,7 +1,7 @@
 /*!
  * Bullet Links
- * https://stash.c2mpg.com:8443/projects/C2/repos/bullet-links
- * @version 1.1.0
+ * https://github.com/TheC2Group/bullet-links
+ * @version 1.1.1
  * @license MIT (c) The C2 Group (c2experience.com)
  */
 

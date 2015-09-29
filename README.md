@@ -49,7 +49,7 @@ var bullets = new BulletLinks('#el', count, options);
 bullets.onUpdate(function (index) {
     console.log(index); 
 });
-```js
+```
 
 
 BulletLinks
