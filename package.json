@@ -1,10 +1,10 @@
 {
   "name": "c2-bullet-links",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "This module builds a list of bullet links.",
   "main": "bullet-links.js",
   "scripts": {
-    "standalone": "browserify bullet-links.js --outfile standalone/bullet-links.js --standalone BulletLinks --exclude jquery",
+    "standalone": "browserify -t [exposify --expose [ --jquery jQuery ] ] bullet-links.js --outfile standalone/bullet-links.js --standalone BulletLinks",
     "dist": "uglifyjs standalone/bullet-links.js --output standalone/bullet-links.min.js --comments",
     "build": "npm run standalone && npm run dist"
   },
@@ -16,5 +16,11 @@
     "bullets"
   ],
   "author": "The C2 Group",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "exposify": "^0.5.0"
+  },
+  "dependencies": {
+    "jquery": "^2.1.4"
+  }
 }

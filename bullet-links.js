@@ -1,13 +1,13 @@
 /*!
  * Bullet Links
  * https://github.com/TheC2Group/bullet-links
- * @version 1.2.0
+ * @version 1.2.1
  * @license MIT (c) The C2 Group (c2experience.com)
  */
 
 'use strict';
 
-var $ = jQuery || require('jquery');
+var $ = require('jquery');
 
 var defaults = {
     template: '<a href="#" {attribute}={status}><span class="Hidden">Go to item {index}</span></a>',
