@@ -1,14 +1,9 @@
-bullet-links
-============
-
+# bullet-links
 > This module builds a list of bullet links. If the index changes outside of this module, it is important to notify this module of the new index.
 
 ES5 polyfills needed for `Array.forEach`.
 
-
-To get started
---------------
-
+## To get started
 ### CommonJS
 
 ```
@@ -16,7 +11,7 @@ $ npm install c2-bullet-links
 ```
 
 ```js
-var ArrowButtons = require('c2-bullet-links');
+var BulletLinks = require('c2-bullet-links');
 ```
 
 ### Browser Global
@@ -26,9 +21,7 @@ var ArrowButtons = require('c2-bullet-links');
 <script src="standalone/bullet-links.js"></script>
 ```
 
-
-Basic example
--------------
+## Basic example
 
 ```js
 // How many bullet links do you want?
@@ -47,39 +40,21 @@ var options = {
 var bullets = new BulletLinks('#el', count, options);
 
 bullets.onUpdate(function (index) {
-    console.log(index); 
+    console.log(index);
 });
 ```
 
+## BulletLinks
+Constructor<br>@param {jQuery} - element that the bullet links go inside<br>@param {Number} - the amount of items you want to generate<br>@param {Object} - object to change any of the default options<br>@return {Object} - instance of BulletLinks  
 
-BulletLinks
-------------
-Constructor  
-@param {jQuery} - element that the bullet links go inside  
-@param {Number} - the amount of items you want to generate  
-@param {Object} - object to change any of the default options  
-@return {Object} - instance of BulletLinks  
+## .setIndex
+@param {Number}<br>@return {Object} - instance of BulletLinks  
 
+## .onUpdate
+@param {Function}<br>@return {Object} - instance of BulletLinks  
 
-.setIndex
----------
-@param {Number}  
-@return {Object} - instance of BulletLinks  
+## .appendTo
+@param {jQuery} - element you want to append all the bullets and container to @return {Object} - instance of BulletLinks  
 
-
-.onUpdate
----------
-@param {Function}  
-@return {Object} - instance of BulletLinks  
-
-
-.appendTo
--------
-@param {jQuery} - element you want to append all the bullets and container to
-@return {Object} - instance of BulletLinks  
-
-
-License
--------
-
+## License
 MIT © [The C2 Group](https://c2experience.com)
