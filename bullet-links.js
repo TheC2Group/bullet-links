@@ -1,10 +1,3 @@
-/*!
- * Bullet Links
- * https://github.com/TheC2Group/bullet-links
- * @version 1.2.1
- * @license MIT (c) The C2 Group (c2experience.com)
- */
-
 'use strict';
 
 import * as $ from 'jquery';
