@@ -7,7 +7,7 @@
 
 'use strict';
 
-var $ = require('jquery');
+import * as $ from 'jquery';
 
 var defaults = {
     template: '<a href="#" {attribute}={status}><span class="Hidden">Go to item {index}</span></a>',
@@ -101,4 +101,4 @@ Bullets.prototype.appendTo = function (selector) {
     return this;
 };
 
-module.exports = Bullets;
+export default Bullets;

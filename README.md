@@ -18,7 +18,7 @@ var BulletLinks = require('c2-bullet-links');
 
 ```html
 <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-<script src="standalone/bullet-links.js"></script>
+<script src="iife/bullet-links.js"></script>
 ```
 
 ## Basic example
