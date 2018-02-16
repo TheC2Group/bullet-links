@@ -17,7 +17,7 @@ var BulletLinks = require('c2-bullet-links');
 ### Browser Global
 
 ```html
-<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
 <script src="iife/bullet-links.js"></script>
 ```
 
