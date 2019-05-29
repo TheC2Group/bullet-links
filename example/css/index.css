@@ -1,0 +1,42 @@
+body {
+    font-family: sans-serif;
+}
+
+.Hidden {
+    display: none;
+}
+
+.Example {
+    font-size: 30px;
+}
+.Example:before {
+    display: block;
+    content: attr(data-index);
+}
+
+.Bullets {
+    margin: 0;
+    padding: 0 0 20px;
+    list-style: none;
+    font-size: 18px;
+}
+
+.Bullets li {
+    display: inline-block;
+}
+
+.Bullets a {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px 0 0;
+    text-align: center;
+    line-height: 30px;
+    background: #eee;
+}
+
+.Bullets a[data-status="active"],
+.Bullets [data-status="active"] a {
+    background: #ccc;
+}
