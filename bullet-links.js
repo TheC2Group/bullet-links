@@ -1,6 +1,6 @@
 'use strict';
 
-import * as $ from 'jquery';
+import $ from 'jquery';
 
 var defaults = {
     template: '<a href="#" {attribute}={status}><span class="Hidden">Go to item {index}</span></a>',
