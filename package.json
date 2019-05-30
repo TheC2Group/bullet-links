@@ -1,15 +1,12 @@
 {
   "name": "c2-bullet-links",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "This module builds a list of bullet links.",
   "jsnext:main": "bullet-links.js",
   "main": "cjs/bullet-links.js",
   "export": "BulletLinks",
   "scripts": {
-    "iife": "rollup -c rollup-iife.config.js",
-    "cjs": "rollup -c rollup-cjs.config.js",
-    "umd": "rollup -c rollup-umd.config.js",
-    "build": "npm run iife && npm run cjs && npm run umd",
+    "build": "rollup -c rollup.config.js",
     "bundle-example": "browserify example/js/index.js -o example/bundle/index.js"
   },
   "repository": {
